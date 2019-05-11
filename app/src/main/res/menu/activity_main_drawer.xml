@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:background="#225b85">
+        <item
+            android:id="@+id/courses"
+            android:title="Courses"
+            android:icon="@drawable/course_icon"/>
+        <item
+            android:id="@+id/fees"
+            android:title="Fees"
+            android:icon="@drawable/fees_icon"/>
+        <item
+            android:id="@+id/regis"
+            android:title="Registration"
+            android:icon="@drawable/regis_icon"/>
+        <item
+            android:id="@+id/contact"
+            android:title="Contact us"
+            android:icon="@drawable/contact_icon"/>
+
+        <item
+            android:id="@+id/shopping"
+            android:title="Shopping Cart"
+            android:icon="@drawable/shopping_icon"/>
+
+        <item
+            android:id="@+id/student"
+            android:title="Student Login"
+            android:icon="@drawable/student_icon"/>
+
+        <item
+            android:id="@+id/teacher"
+            android:title="Teacher Login"
+            android:icon="@drawable/teacher_icon"/>
+
+        <item
+            android:id="@+id/admin"
+            android:title="Admin Login"
+            android:icon="@drawable/admin_icon"/>
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about_icon"/>
+        <item
+            android:id="@+id/exit"
+            android:title="Exit"
+            android:icon="@drawable/exit_icon"/>
+    </group>
+</menu>

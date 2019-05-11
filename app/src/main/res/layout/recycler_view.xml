@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:background="@color/one"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context="com.example.apple.project4.arabiclessonFragment">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/myrecyclerview"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/two"
+    android:layout_height="match_parent"/>
+
+</android.support.design.widget.CoordinatorLayout>

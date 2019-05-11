@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/one"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="Testimonial:"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:text="Before I joined the program I was a little hesitant about learning the Arabic language in the Arabic medium. I'm now in the second month of study in the general program group class with Ustaza Salma and can happily say this is the best method I've tried so far.
+
+Our teacher makes it clear to us - either by drawing on the screen, using examples or by explaining in English (in the first few classes only). The textbooks too are full of pictures to help complete beginners make connections to the words and sentences.
+
+After the first month, class communication was restricted to Arabic and we were forced to get comfortable with conversing in Arabic. Initially it felt odd and unnatural but after a while the Arabic words come to you naturally without much effort Alhamdulillaah.
+
+The curriculum is well-structured and introduces new concepts level by level - slowly creating a foundation in Arabic and then building on it. Apart from the textbooks, the institute also provides a vocabulary book and exercise book for each level of the program. They also send and make us do worksheets on additional topics in grammar, vocabulary and verbs.
+
+The course uses all mediums - listening, reading, writing, conversation, comprehension - to immerse you in the language. It's the first Arabic course I've seen that gives so much importance to other language skills besides reading and comprehension. The teacher corrects our written assignments everyday and regularly tests us in class to check our understanding of the material. Ustaza Salma, overall, is very positive, encouraging, and patient.
+
+To summarise, our classes are fun and substantiative at the same time, and I would recommend the institute to anyone looking for a proper program to study the Arabic language effectively."
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Farha"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:text="India"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+</ScrollView>

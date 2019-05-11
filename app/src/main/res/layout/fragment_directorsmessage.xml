@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/one"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/about_directorsmess"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:text="Arabiya Classes Institute aims to help non-Arabs acquire a high-level of proficiency in the Arabic language as well as the Islamic Sciences. We have a dedicated faculty comprising graduates from some of the leading institutions in the Arab world. I hope you find the Arabic language easy with us, in shaa Allaah"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/showMorePrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="My Philosophy in Teaching Arabic as a Second Language" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="It is essential that an Arabic teacher cultivates proficiency in four areas for students of the language. These areas are reading, writing, speaking, and listening. A teacher should not focus on one, two, or even three areas alone. Rather, it is imperative for a teacher to concentrate and direct his or her focus on each of these four areas, and to adjust each component according to the age and level of proficiency of the student.As such, a teacher of the Arabic language should be required to meet three competencies: one of the Arabic language, a teaching competency, as well as a cultural competency."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="1. Language competency requires that a teacher is strong in all of the branches of the Arabic language, its rules, knows the history of the language, as well as its relationship with other languages."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="2. Career competency requires that the teacher has sufficient experience that qualifies him. Because the instructor will be teaching the language to non-speakers, it requires that the teacher has practiced this skill before and even has taken courses on how to effectively teach Arabic to non-speakers."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:text="3. Cultural competency assumes that the teacher knows the culture of the various ethnic and religious groups that he or she is going to teach and knows how to interact with them in the classroom. The teacher should also know what is desirable in the classroom, what should be ignored, and what behavior is intolerable."
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="In addition to these competencies, the teacher should encourage his or her students to reteach the material that they are taught in class. This helps to reinforce concepts that the students have already learned. The teacher should also take into account individual differences between students. Just to name a few, these differences can include factors such as age, temperament, learning styles, as well as differences in personality.As I have taught Arabic to non-speakers, I have tried to integrate all four components of the language into singles lectures. I give all my students the opportunity to write, to read, to speak, and also to listen by setting up language exercises and drills for them. In reality, there are many methods and approaches to teaching the Arabic language to non-Arabic speakers. The five that are well known are:"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="1. The Grammar-Translation Approach"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="2. The Direct Approach"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:text="3. The Reading Approach"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="4. The Audio-lingual Method"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="5. A Selective Optional Approach"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="In my opinion, I have not found an ideal, complete method of teaching the Arabic language. There are advantages and disadvantages in all of the methods. However, I prefer the Selective Optional approach of teaching. This is because I am not bound to a single method of instruction and I can choose the most suitable method for my students at the proper time while assessing their progress and needs. It is important for teachers to set a goal that their students will utilize and apply the language above and beyond just their careers or personal lives."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="Mr. Safwat Badawy Altantawy"
+            android:textStyle="bold"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</ScrollView>

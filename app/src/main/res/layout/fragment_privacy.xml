@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/one"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/about_privacypolicy"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:text="Update effective Oct 30, 2016"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+        android:text="This Privacy Policy will explain which information will be collected by Arabiya Classes Institute, how it handles this information and how your privacy is guaranteed. By using the Website, you agree to be bound to our Privacy Policy."
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/showMorePrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Personal information" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:text="We collect only information that is voluntarily provided by our visitors, and we use it only for the purpose for which it was provided. We securely log this information and discard it after a reasonable time. This information is not shared with or sold to any third party, and this information is not collected for advertising purposes, and is never shared with advertisers."
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Contact Information" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="We may use your email address to send you emails, collect a phone number, or a WhatsApp number for the purpose of sending you a text message or a phone call. When you register with us, you agree that you own the phone number, e-mail address, and WhatsApp information you provide."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="How do we use the personal information that you provide to us?" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="Broadly speaking, your personal information is used to contact you regarding educational opportunities and products offered by our Institute. We may store your information for the purpose of communicating with you about the programs and services offered by our Institute and send you updates if and when they become available. We also use personal information for purposes of administering our business activities, providing customer service, and making other products and services available to our customers and prospective customers. Occasionally, we may also use the information we collect to notify you about important changes to the web site, new services and special offers we think you will find valuable."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Do we use cookies?" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="We do not use cookies."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Third party site" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="We define a “third party site” as a website that we are not directly affiliated with and where we do not control any of the content. We usually provide a link to a third party site when we think our visitors may find the site interesting or informative, but the inclusion of the link on our website should not be taken as an endorsement of that website. We do our best to research the authenticity and safety of a website before we post a link to it, but since we don't control the content, we cannot guarantee any part of your experience at that third party site."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Names" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="'arabiyaclasses.com', 'Arabiya Classes Institute' and 'aci' are trademarks of arabiyaclasses.com and may not be used commercially without prior written permission."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Children" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="Arabiya Classes Institute is not intended for, nor do we knowingly collect information, from children under the age of 13."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="How do we protect your personal information?" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="We utilize encryption/security software to safeguard the confidentiality of personal information we collect. This software provides a limited degree of protection against unauthorized access or disclosure, as well as accidental loss, alteration or destruction."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="Changes to Privacy Policy" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="We may update this Privacy Policy to reflect changes in our information practices. If we make any material changes, we will notify you by email (specified in your account) when required or by means of a notice on this website, prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy practices."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/two"
+            android:textAlignment="center"
+            android:text="To who can you direct any further questions?" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="You can reach us via this E-mail: support@arabiyaclasses.com. or by Live Chat in this site."
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</ScrollView>

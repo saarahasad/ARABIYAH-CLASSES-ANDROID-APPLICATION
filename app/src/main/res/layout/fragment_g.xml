@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:typeface="serif"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:background="@color/one"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/showMorePrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:textAlignment="center"
+            android:text="Level 1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Title:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kitab As-Safwah Fil Nahwa"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Author:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Dr. Safwat Badwy"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Subject:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arabic Grammar and composition"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Prerequisite:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completion of Level 1 at Arabiya Classes Institute (ACI)"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Time:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20 hours"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Description:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is an introductory book on Arabic grammar and composition. Its simple approach and easy to comprehend style makes it perfectly suitable for the foreign learner of Arabic. The book takes the division of word into the basic three grammatical categories, namely ism, feyl, and harf as its starting point. Then, it addresses the binary classification of the Arabic sentence, and covers the grammatical constituents of both kinds."
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Objective:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Understanding basic Arabic composition, and acquiring the skill to form an accurate Arabic sentence"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+        </TableLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <Button
+            android:id="@+id/showMoreIntermediate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:text="Level 2" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sharh Altohfah Alsaneyyah"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Author:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Dr. Safwat Badwy"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Subject:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arabic Grammar and composition"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Prerequisite:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completion of Level 4 at Arabiya Classes Institute (ACI)"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Time:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40 hours"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Description:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Al-Ājrūmīya in full Al Muqaddimah al Ajurrumiyyah fi Mabadi’ Ilm al Arabiyyah is a 13th-century book of Arabic grammar ( naḥw ʿarabī). It formed the foundation of a beginner's education in Classical Arabic learning in Arab societies of the time and was one of the first books to be memorized after the Qur'an along with the Alfiya. It was written by the Moroccan Berber Abu 'Abd Allah Sidi Muhammad ibn Da'ud as-Sanhaji (aka ‘Ibn Ajarrum’)"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Objective:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Understanding of the rules of the Arabic language.
+
+- Interpretation of the Arabic sentences in a simple.
+
+- Understand many of the texts of the Quran."
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+        </TableLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <Button
+            android:id="@+id/showMoreAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:text="Level 3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sharh Qatr Alnada wa ballo alsada "
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Author:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Ibn Hesham Alansary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Subject:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arabic Grammar and composition"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Prerequisite:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completion of Level 8 at Arabiya Classes Institute (ACI)"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Time:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="60 hours"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Description:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Explanation on Qaṭr al-Nada wa-Bal al-Sada'. A master book on the science of Arabic grammar (nahu), by the great linguist and grammarian Jamal al-Din Ibn Hisham al-Ansari(708/1309 - 761/1360), with some commentaries."
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Objective:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Understand the deeper grammatical structures in the Arabic language.
+                    - Understanding the structure of the language in the Koran.
+                    - Installation of deep linguistic sentences.
+                    - The study of every grammatical sections, which was not covered in the previous stages."
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

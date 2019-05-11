@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/one"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="Testimonial:"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="I began studying the Arabic language with Safwat almost three years ago, while I was still an undergraduate student at Tulane University. I would Skype with him one-on-one, every morning at 4 A.M., because I was so eager to learn the Arabic language before I began medical school. I had started my Arabic studies prior to that, but I had only grasped the forma-lities of conversational Arabic and grammar with a few other teachers. When I transitioned to instruction under Safwat, I realized that his teaching style was unique, intuitive, and engaging. He would have me read a passage and challenge me to understand as much as I could from the context. We would dissect and conjugate each and every new word, clarify alternative definitions, and even discussed words that sounded familiar. His emphasis on verb conjugations, plurals, and antonyms helped to expand my vocabulary tremendously and I found myself taking in a substantial amount of information in such a short period of time. Initially, grammar was being taught through reading and speaking, while morphology through verb conjugations; however, as I progressed, we studied detailed rules of the language more closely. Later on, we studied rhetorical devices used in the Arabic language from which I am now able understand literature and even poetry at a much deeper level. For all of his lessons, he typed out comprehensive notes that were easy to read, memorize, and review. His expectations of me also grew and I found myself growing as a student. He really held high standards for me, but they were never unrealistic, regardless of how I perceived them at the time. Safwat really wants his students to succeed, which is expressed through his teaching and mentoring. Had I not had a flexible, ambitious, hard-working, and compassionate teacher such as Safwat, I would not be enjoying the fruits of the Arabic language as I do now. Recently, I traveled abroad to Saudi Arabia and used my Arabic at every opportunity that presented itself. I even use my Arabic with Arab speakers in my own community and often receive compliments on my grammar and vocabulary. Many of these same people ask me, “Who is your teacher? I proudly respond, “Safwat Badawi Metwally Abdel Majeed.”"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Ahad Mussarat"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="LSU Shreveport Health Sciences"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:text="Incoming First Year Medical Student"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+            android:text="Email: ahadmussarat@gmail.com"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <TextView
+        android:text="Phone: +1 985-351-3926"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</ScrollView>

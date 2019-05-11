@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Arabiya Classes</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer closed</string>
+    <string name="action_settings">settings</string>
+</resources>

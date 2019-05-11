@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/one"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:typeface="serif"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:background="@color/one"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/showMorePrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:textAlignment="center"
+            android:text="Intensive Online Courses" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Description:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We made this course especially for those students who either work or still have their academic study and can’t study during their work or study time but have an annual vacation. Therefore, this course can fulfill their desire in learning during their vacation."
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Course duration:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="   120 hours"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Number of months:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   2 months"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Number of days per week:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   5 days"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Number of hours per day:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   3 hours"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Number of levels:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   3 complete levels"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:text="Price of the complete course:"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   600 $"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

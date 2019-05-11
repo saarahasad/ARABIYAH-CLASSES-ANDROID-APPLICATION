@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#04182f"
+    android:id="@+id/coursefragment"
+    android:orientation="vertical"
+    tools:context="com.example.apple.project4.CoursesFragment">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/arabiclesson"
+        android:background="@color/one"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Arabic Lessons"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/quranlesson"
+        android:background="@color/one"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Quran Lessons"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/one"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/islamiclesson"
+        android:text="Islamic Lessons"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/one"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/teachertraining"
+        android:text="Training of Teachers"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/one"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/childrenscourse"
+        android:text="Children's courses"/>
+    <FrameLayout
+        android:id="@+id/content_frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
